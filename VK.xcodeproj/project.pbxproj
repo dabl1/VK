@@ -20,9 +20,13 @@
 		0411BC1E2580FFF80022FF5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0411BC1C2580FFF80022FF5A /* LaunchScreen.storyboard */; };
 		0411BC27258100550022FF5A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411BC26258100550022FF5A /* LoginViewController.swift */; };
 		04200FEA25B1E53F00D1458A /* MyCustomSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04200FE925B1E53F00D1458A /* MyCustomSectionHeaderView.swift */; };
+		04227BD325EBC3F700BD39DF /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04227BD225EBC3F700BD39DF /* CustomView.swift */; };
+		04227BD625EBCB7900BD39DF /* FriendsSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04227BD525EBCB7900BD39DF /* FriendsSectionHeader.swift */; };
+		04227BD925EBD1DB00BD39DF /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04227BD825EBD1DB00BD39DF /* ImageView.swift */; };
+		042BED8D25E1780B002FD7DD /* VKGroupNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042BED8C25E1780B002FD7DD /* VKGroupNetwork.swift */; };
 		043EC5D825876408002121CB /* LocalGroupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EC5D725876408002121CB /* LocalGroupViewCell.swift */; };
 		04479E8825B075DA00A0A775 /* LetterControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04479E8725B075DA00A0A775 /* LetterControl.swift */; };
-		0470661725C046CF003F6C2F /* PhotoFreinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470661625C046CF003F6C2F /* PhotoFreinds.swift */; };
+		0470661725C046CF003F6C2F /* PhotoGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470661625C046CF003F6C2F /* PhotoGalleryViewController.swift */; };
 		0470662625C1A5EC003F6C2F /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470662525C1A5EC003F6C2F /* NewsTableViewController.swift */; };
 		0470662A25C1A610003F6C2F /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470662925C1A610003F6C2F /* FeedCell.swift */; };
 		0470663125C1A69D003F6C2F /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470663025C1A69D003F6C2F /* FeedController.swift */; };
@@ -39,7 +43,11 @@
 		048B016A25850B01008BBA9B /* MyGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B016925850B01008BBA9B /* MyGroupsViewController.swift */; };
 		048B016E25850B14008BBA9B /* LocalGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B016D25850B14008BBA9B /* LocalGroupsViewController.swift */; };
 		048B017125850CD6008BBA9B /* MyGroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B017025850CD6008BBA9B /* MyGroupsCell.swift */; };
+		049C3C2E25E9022E00D7FC7C /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C3C2D25E9022E00D7FC7C /* NetworkSession.swift */; };
+		049C3C3125E9050900D7FC7C /* VKPhotosUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C3C3025E9050900D7FC7C /* VKPhotosUsers.swift */; };
+		049C3C3B25E9096400D7FC7C /* MyGroupsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C3C3A25E9096400D7FC7C /* MyGroupsHeader.swift */; };
 		04B78CB425BA28C6000956BF /* LikeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B78CB325BA28C6000956BF /* LikeControl.swift */; };
+		04B93BC225E7BC4800B6A2EF /* VKUsersNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B93BC125E7BC4800B6A2EF /* VKUsersNetwork.swift */; };
 		04BED61D258C187F00C7A6F5 /* GraphicsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BED61C258C187F00C7A6F5 /* GraphicsVC.swift */; };
 		04D60D3F25DBD2CD00E25150 /* VKLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D60D3E25DBD2CD00E25150 /* VKLoginViewController.swift */; };
 		04D60D4225DBD96900E25150 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D60D4125DBD96900E25150 /* Session.swift */; };
@@ -66,9 +74,13 @@
 		0411BC1F2580FFF80022FF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0411BC26258100550022FF5A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		04200FE925B1E53F00D1458A /* MyCustomSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomSectionHeaderView.swift; sourceTree = "<group>"; };
+		04227BD225EBC3F700BD39DF /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		04227BD525EBCB7900BD39DF /* FriendsSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsSectionHeader.swift; sourceTree = "<group>"; };
+		04227BD825EBD1DB00BD39DF /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		042BED8C25E1780B002FD7DD /* VKGroupNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKGroupNetwork.swift; sourceTree = "<group>"; };
 		043EC5D725876408002121CB /* LocalGroupViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGroupViewCell.swift; sourceTree = "<group>"; };
 		04479E8725B075DA00A0A775 /* LetterControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterControl.swift; sourceTree = "<group>"; };
-		0470661625C046CF003F6C2F /* PhotoFreinds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFreinds.swift; sourceTree = "<group>"; };
+		0470661625C046CF003F6C2F /* PhotoGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryViewController.swift; sourceTree = "<group>"; };
 		0470662525C1A5EC003F6C2F /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		0470662925C1A610003F6C2F /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		0470663025C1A69D003F6C2F /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
@@ -85,7 +97,11 @@
 		048B016925850B01008BBA9B /* MyGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsViewController.swift; sourceTree = "<group>"; };
 		048B016D25850B14008BBA9B /* LocalGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGroupsViewController.swift; sourceTree = "<group>"; };
 		048B017025850CD6008BBA9B /* MyGroupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsCell.swift; sourceTree = "<group>"; };
+		049C3C2D25E9022E00D7FC7C /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		049C3C3025E9050900D7FC7C /* VKPhotosUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKPhotosUsers.swift; sourceTree = "<group>"; };
+		049C3C3A25E9096400D7FC7C /* MyGroupsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsHeader.swift; sourceTree = "<group>"; };
 		04B78CB325BA28C6000956BF /* LikeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeControl.swift; sourceTree = "<group>"; };
+		04B93BC125E7BC4800B6A2EF /* VKUsersNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKUsersNetwork.swift; sourceTree = "<group>"; };
 		04BED61C258C187F00C7A6F5 /* GraphicsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsVC.swift; sourceTree = "<group>"; };
 		04D60D3E25DBD2CD00E25150 /* VKLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLoginViewController.swift; sourceTree = "<group>"; };
 		04D60D4125DBD96900E25150 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
@@ -127,6 +143,7 @@
 				0405A2D325D1804100BED59C /* NetworkManager.swift */,
 				04D60D4125DBD96900E25150 /* Session.swift */,
 				04D60D3E25DBD2CD00E25150 /* VKLoginViewController.swift */,
+				049C3C2D25E9022E00D7FC7C /* NetworkSession.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -179,8 +196,17 @@
 				04479E8725B075DA00A0A775 /* LetterControl.swift */,
 				0470663A25C1C2CB003F6C2F /* CellLogo.swift */,
 				04B78CB325BA28C6000956BF /* LikeControl.swift */,
+				04227BD225EBC3F700BD39DF /* CustomView.swift */,
+				04227BD825EBD1DB00BD39DF /* ImageView.swift */,
 			);
 			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		042BED9325E182BC002FD7DD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		0470661D25C16DF9003F6C2F /* Application */ = {
@@ -217,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				0484921E2582DA3E0041ADD4 /* MyFreindsTableViewController.swift */,
+				04227BD525EBCB7900BD39DF /* FriendsSectionHeader.swift */,
 				04200FE925B1E53F00D1458A /* MyCustomSectionHeaderView.swift */,
 				048492262582DBDB0041ADD4 /* FreindsCell.swift */,
 			);
@@ -235,7 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				048B016025849C22008BBA9B /* PhotoFreindCollectionController.swift */,
-				0470661625C046CF003F6C2F /* PhotoFreinds.swift */,
+				0470661625C046CF003F6C2F /* PhotoGalleryViewController.swift */,
 				048B01642584B358008BBA9B /* PhotoCell.swift */,
 			);
 			path = PhotoFreind;
@@ -244,7 +271,9 @@
 		048B016725850AAD008BBA9B /* My Groups */ = {
 			isa = PBXGroup;
 			children = (
+				042BED9325E182BC002FD7DD /* Network */,
 				048B016925850B01008BBA9B /* MyGroupsViewController.swift */,
+				049C3C3A25E9096400D7FC7C /* MyGroupsHeader.swift */,
 				048B017025850CD6008BBA9B /* MyGroupsCell.swift */,
 			);
 			path = "My Groups";
@@ -275,6 +304,9 @@
 			isa = PBXGroup;
 			children = (
 				B4EB510B2587DDC100DA899E /* VKUser.swift */,
+				042BED8C25E1780B002FD7DD /* VKGroupNetwork.swift */,
+				04B93BC125E7BC4800B6A2EF /* VKUsersNetwork.swift */,
+				049C3C3025E9050900D7FC7C /* VKPhotosUsers.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -325,7 +357,7 @@
 				0411BC0A2580FFF70022FF5A /* Sources */,
 				0411BC0B2580FFF70022FF5A /* Frameworks */,
 				0411BC0C2580FFF70022FF5A /* Resources */,
-				7B4295CB0C30AE3597B60662 /* [CP] Embed Pods Frameworks */,
+				9094A480CD9E3C46408F5A34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,23 +414,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7B4295CB0C30AE3597B60662 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VK/Pods-VK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VK/Pods-VK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VK/Pods-VK-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8B7395EA7A82EF4A76A7ADDE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -421,6 +436,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9094A480CD9E3C46408F5A34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VK/Pods-VK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VK/Pods-VK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VK/Pods-VK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -431,18 +463,24 @@
 				040F11C2258ADCCE001BF6A6 /* VKGroupsInfo.swift in Sources */,
 				0470663125C1A69D003F6C2F /* FeedController.swift in Sources */,
 				0470662A25C1A610003F6C2F /* FeedCell.swift in Sources */,
+				04227BD325EBC3F700BD39DF /* CustomView.swift in Sources */,
+				04227BD925EBD1DB00BD39DF /* ImageView.swift in Sources */,
 				040F11B625896F5E001BF6A6 /* AvatarImageGroup.swift in Sources */,
 				048492282582DBDB0041ADD4 /* FreindsCell.swift in Sources */,
 				0470663F25C1C34E003F6C2F /* UILabel.swift in Sources */,
+				049C3C3125E9050900D7FC7C /* VKPhotosUsers.swift in Sources */,
 				04479E8825B075DA00A0A775 /* LetterControl.swift in Sources */,
 				0405A2AA25CAE93400BED59C /* GroupInfoTableViewCell.swift in Sources */,
 				04D60D4225DBD96900E25150 /* Session.swift in Sources */,
 				B4EB51102587E2C800DA899E /* AvatarImage.swift in Sources */,
+				042BED8D25E1780B002FD7DD /* VKGroupNetwork.swift in Sources */,
 				040F11B925897011001BF6A6 /* VKGroups.swift in Sources */,
 				0470663B25C1C2CB003F6C2F /* CellLogo.swift in Sources */,
 				048B01652584B358008BBA9B /* PhotoCell.swift in Sources */,
-				0470661725C046CF003F6C2F /* PhotoFreinds.swift in Sources */,
+				0470661725C046CF003F6C2F /* PhotoGalleryViewController.swift in Sources */,
+				04227BD625EBCB7900BD39DF /* FriendsSectionHeader.swift in Sources */,
 				0411BC27258100550022FF5A /* LoginViewController.swift in Sources */,
+				049C3C3B25E9096400D7FC7C /* MyGroupsHeader.swift in Sources */,
 				048B016125849C22008BBA9B /* PhotoFreindCollectionController.swift in Sources */,
 				0405A2D425D1804100BED59C /* NetworkManager.swift in Sources */,
 				04B78CB425BA28C6000956BF /* LikeControl.swift in Sources */,
@@ -459,6 +497,8 @@
 				040F11BF258ADC67001BF6A6 /* GroupsInfoViewController.swift in Sources */,
 				0470663425C1A6DA003F6C2F /* NewsTableViewCell.swift in Sources */,
 				04D60D3F25DBD2CD00E25150 /* VKLoginViewController.swift in Sources */,
+				04B93BC225E7BC4800B6A2EF /* VKUsersNetwork.swift in Sources */,
+				049C3C2E25E9022E00D7FC7C /* NetworkSession.swift in Sources */,
 				B4EB510C2587DDC100DA899E /* VKUser.swift in Sources */,
 				048B016E25850B14008BBA9B /* LocalGroupsViewController.swift in Sources */,
 				048B017125850CD6008BBA9B /* MyGroupsCell.swift in Sources */,
