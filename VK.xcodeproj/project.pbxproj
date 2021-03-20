@@ -46,6 +46,7 @@
 		049C3C2E25E9022E00D7FC7C /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C3C2D25E9022E00D7FC7C /* NetworkSession.swift */; };
 		049C3C3125E9050900D7FC7C /* VKPhotosUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C3C3025E9050900D7FC7C /* VKPhotosUsers.swift */; };
 		049C3C3B25E9096400D7FC7C /* MyGroupsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C3C3A25E9096400D7FC7C /* MyGroupsHeader.swift */; };
+		04A3CC4F2604F14C00DEAF39 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3CC4E2604F14C00DEAF39 /* RealmManager.swift */; };
 		04B78CB425BA28C6000956BF /* LikeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B78CB325BA28C6000956BF /* LikeControl.swift */; };
 		04B93BC225E7BC4800B6A2EF /* VKUsersNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B93BC125E7BC4800B6A2EF /* VKUsersNetwork.swift */; };
 		04BED61D258C187F00C7A6F5 /* GraphicsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BED61C258C187F00C7A6F5 /* GraphicsVC.swift */; };
@@ -100,6 +101,7 @@
 		049C3C2D25E9022E00D7FC7C /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
 		049C3C3025E9050900D7FC7C /* VKPhotosUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKPhotosUsers.swift; sourceTree = "<group>"; };
 		049C3C3A25E9096400D7FC7C /* MyGroupsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsHeader.swift; sourceTree = "<group>"; };
+		04A3CC4E2604F14C00DEAF39 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		04B78CB325BA28C6000956BF /* LikeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeControl.swift; sourceTree = "<group>"; };
 		04B93BC125E7BC4800B6A2EF /* VKUsersNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKUsersNetwork.swift; sourceTree = "<group>"; };
 		04BED61C258C187F00C7A6F5 /* GraphicsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsVC.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				04D60D4125DBD96900E25150 /* Session.swift */,
 				04D60D3E25DBD2CD00E25150 /* VKLoginViewController.swift */,
 				049C3C2D25E9022E00D7FC7C /* NetworkSession.swift */,
+				04A3CC4E2604F14C00DEAF39 /* RealmManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				04F8685B25D5BD16003D8220 /* LoadingIndicator.swift in Sources */,
 				047ECC7725BB0B250014277F /* UIView.swift in Sources */,
 				0470663825C1C22A003F6C2F /* UIImage.swift in Sources */,
+				04A3CC4F2604F14C00DEAF39 /* RealmManager.swift in Sources */,
 				0411BC142580FFF70022FF5A /* SceneDelegate.swift in Sources */,
 				0484921F2582DA3E0041ADD4 /* MyFreindsTableViewController.swift in Sources */,
 				040F11BF258ADC67001BF6A6 /* GroupsInfoViewController.swift in Sources */,
